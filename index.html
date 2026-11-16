@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP GAMING - Official HQ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background: #111111;
+            border-bottom: 2px solid #00ffcc;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00ffcc;
+            letter-spacing: 2px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #00ffcc;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to bottom, #111111, #050505);
+        }
+        .hero h1 {
+            font-size: 48px;
+            color: #00ffcc;
+            margin-bottom: 15px;
+            text-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+        }
+        .hero p {
+            font-size: 18px;
+            color: #aaaaaa;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+        .hardware-section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .hardware-card {
+            background: #111111;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.8);
+        }
+        .hardware-card h3 {
+            color: #00ffcc;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .form-section {
+            padding: 60px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-box {
+            background-color: #111111;
+            border: 2px solid #00ffcc;
+            border-radius: 15px;
+            padding: 40px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 0 25px rgba(0, 255, 204, 0.2);
+        }
+        .form-box h2 {
+            color: #00ffcc;
+            margin-bottom: 10px;
+            font-size: 26px;
+            text-align: center;
+        }
+        .form-box p {
+            color: #aaaaaa;
+            font-size: 13px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .input-group {
+            margin-bottom: 18px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 14px;
+            color: #dddddd;
+            font-weight: bold;
+        }
+        .input-group input, 
+        .input-group select, 
+        .input-group textarea {
+            width: 100%;
+            padding: 12px;
+            background-color: #1a1a1a;
+            border: 1px solid #333333;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 15px;
+            outline: none;
+        }
+        .input-group input:focus, 
+        .input-group select:focus, 
+        .input-group textarea:focus {
+            border-color: #00ffcc;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: #00ffcc;
+            color: #000000;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            letter-spacing: 1px;
+            transition: background 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #00cca3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: #666;
+            font-size: 13px;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">POP GAMING</div>
+        <nav>
+            <a href="#hardware">Hardware</a>
+            <a href="#join">Join Team</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>NEXT-GEN PERFORMANCE</h1>
+        <p>Welcome to POP GAMING. Building the future of high-speed gaming hardware and custom systems.</p>
+    </section>
+
+    <!-- Hardware Showcase -->
+    <section id="hardware" class="hardware-section">
+        <h2>Flagship R&D Project</h2>
+        <div class="hardware-card">
+            <h3>POP GAMING 1 3400</h3>
+            <p>Our upcoming heavy-duty custom rig built for extreme gaming speeds, multitasking, and stability.</p>
+        </div>
+    </section>
+
+    <!-- Stealth Recruitment Form Section -->
+    <section id="join" class="form-section">
+        <div class="form-box">
+            <h2>JOIN POP GAMING</h2>
+            <p>Apply to join our stealth hardware & tech engineering team.</p>
+
+            <!-- Formsubmit action linked directly to your email -->
+            <form action="https://formsubmit.co/keshavkaushal0003@gmail.com" method="POST">
+                
+                <div class="input-group">
+                    <label>Your Full Name</label>
+                    <input type="text" name="Name" placeholder="Enter your name..." required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" name="Email" placeholder="Enter your email..." required>
+                </div>
+
+                <div class="input-group">
+                    <label>Select Your Role / Skill</label>
+                    <select name="Role">
+                        <option value="Hardware Engineer">Hardware & PC Building</option>
+                        <option value="Web / Software Developer">Coding & Web Development</option>
+                        <option value="Video Editor / Designer">Video Editing & Graphics</option>
+                        <option value="Game Tester">Game Testing & R&D</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Why do you want to join POP GAMING?</label>
+                    <textarea name="Message" rows="4" placeholder="Tell us about your skills..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">SEND APPLICATION</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 POP GAMING. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
